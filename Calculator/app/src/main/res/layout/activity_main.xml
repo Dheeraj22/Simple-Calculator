@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/black"
     tools:context="com.example.android.calculator.MainActivity">
 
     <Button
@@ -15,6 +16,7 @@
         android:text="9"
         android:layout_centerVertical="true"
         android:layout_alignParentLeft="true"
+            android:background="@color/green"
         android:layout_alignParentStart="true" />
 
     <Button
@@ -25,6 +27,7 @@
         android:layout_alignBaseline="@+id/btn9"
         android:layout_alignBottom="@+id/btn9"
         android:layout_toRightOf="@+id/btn9"
+             android:background="@color/green"
         android:layout_toEndOf="@+id/btn9" />
 
     <Button
@@ -35,6 +38,7 @@
         android:layout_alignBaseline="@+id/btn8"
         android:layout_alignBottom="@+id/btn8"
         android:layout_toRightOf="@+id/btn8"
+             android:background="@color/green"
         android:layout_toEndOf="@+id/btn8" />
 
     <Button
@@ -45,6 +49,7 @@
         android:layout_alignStart="@+id/btn9"
         android:layout_below="@+id/btn9"
         android:layout_marginTop="12dp"
+             android:background="@color/green"
         android:text="6" />
 
     <Button
@@ -54,6 +59,7 @@
         android:layout_alignLeft="@+id/btn8"
         android:layout_alignStart="@+id/btn8"
         android:layout_alignTop="@+id/btn6"
+             android:background="@color/green"
         android:text="5" />
 
     <Button
@@ -62,6 +68,7 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/btn7"
         android:layout_alignStart="@+id/btn7"
+             android:background="@color/green"
         android:layout_alignTop="@+id/btn5"
         android:text="4" />
 
@@ -72,6 +79,7 @@
         android:layout_alignLeft="@+id/btn6"
         android:layout_alignStart="@+id/btn6"
         android:layout_below="@+id/btn6"
+             android:background="@color/green"
         android:layout_marginTop="13dp"
         android:text="3" />
 
@@ -82,6 +90,7 @@
         android:layout_alignLeft="@+id/btn5"
         android:layout_alignStart="@+id/btn5"
         android:layout_alignTop="@+id/btn3"
+             android:background="@color/green"
         android:text="2" />
 
     <Button
@@ -90,6 +99,7 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/btn4"
         android:layout_alignStart="@+id/btn4"
+             android:background="@color/green"
         android:layout_alignTop="@+id/btn2"
         android:text="1" />
 
@@ -101,6 +111,7 @@
         android:layout_alignStart="@+id/btn3"
         android:layout_below="@+id/btn3"
         android:layout_marginTop="13dp"
+             android:background="@color/green"
         android:text="Clear" />
 
     <Button
@@ -110,6 +121,7 @@
         android:layout_alignLeft="@+id/btn2"
         android:layout_alignStart="@+id/btn2"
         android:layout_alignTop="@+id/btnclear"
+             android:background="@color/green"
         android:text="0" />
 
     <Button
@@ -137,6 +149,7 @@
         android:layout_alignBottom="@+id/btn4"
         android:layout_toEndOf="@+id/btn4"
         android:layout_toRightOf="@+id/btn4"
+             android:background="@color/green"
         android:text="*" />
 
     <Button
@@ -147,6 +160,7 @@
         android:layout_alignBottom="@+id/btn1"
         android:layout_toEndOf="@+id/btn1"
         android:layout_toRightOf="@+id/btn1"
+             android:background="@color/green"
         android:text="+" />
 
     <Button
@@ -156,6 +170,7 @@
         android:layout_alignBottom="@+id/btnequal"
         android:layout_alignTop="@+id/btnequal"
         android:layout_toEndOf="@+id/btnequal"
+             android:background="@color/green"
         android:layout_toRightOf="@+id/btnequal"
         android:text="-" />
 
@@ -170,6 +185,7 @@
         android:layout_alignRight="@+id/btndivide"
         android:layout_alignStart="@+id/btn9"
         android:layout_marginBottom="39dp"
+               android:background="@color/green"
         android:layout_toEndOf="@+id/btn7" />
 
     <TextView
@@ -182,5 +198,6 @@
         android:textSize="16sp"
         android:layout_alignRight="@+id/tvControl"
         android:layout_alignStart="@+id/btn9"
+               android:background="@color/green"
         android:layout_marginBottom="41dp" />
 </RelativeLayout>
